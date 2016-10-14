@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test Project</title>
+    </head>
+    <body>
+        <h2>Current User</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Birthdate</th>
+                <th>Code</th>
+            </tr>
+            
+            <tr>
+                <td>{$name}</td>
+                <td>{$lastname}</td>
+                <td>{$birthdate}</td>
+                <td>{$code}</td>
+            </tr>
+
+        </table>
+        <br>
+        
+        <form action="index.php" method="post">
+            <h2>Change user</h2>
+            <p>Name: <input type="text" name="name" /></p>
+            <p>Last Name: <input type="text" name="lastname" /></p>
+            <p>Birth Date: <input type="text" name="birthdate" /></p>
+            <p><input type="submit" value="Submit"/></p>
+        </form>
+    </body>
+</html>
+
+
+
+
+
